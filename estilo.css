@@ -1,0 +1,104 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Estilo para o menu */
+.menu {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+/* .container para centralizar vertical e horizontalmente os itens contidos em elementos HTML com a classe "container".*/
+.container {
+    align-items: center;
+    justify-content: center;
+}
+
+/* Troca de cor dos botões do menu quando o mouse estiver em cima */
+.botaomenu:hover {
+    background-color: grey;
+
+}
+
+/* Estilo para o texto */
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Estilo para os botões do menu, tamanho, cor, borda, padding, etc */
+.botaomenu {
+    display: inline-block;
+    border: none;
+    border-radius: 1px;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 25px;
+    color: white;
+}
+
+/* Sombra para as imagens */
+#sombra {
+
+    background-color: #F23005;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: black;
+    color: #fff;
+    text-align: left;
+}
+
+/* Estilos para os links no rodapé */
+
+footer {
+    text-align: center;
+
+}
+
+/* Estilos para as seções, tamanho, borda, cor de background, etc */
+section {
+    width: 80%;
+    min-width: 200px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para os títulos das seções */
+section h2 {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+/* Estilos para as listas */
+ul {
+    padding: 0;
+}
+
+/* Estilos para os itens de lista */
+li {
+    margin-bottom: 20px;
+}

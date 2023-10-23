@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- definição do título da página, UTF-8 define o conjunto de caracteres do documento, e define a largura da viewport como igual à largura do dispositivo -->
+    <title>Gustavo Turazzi - Portfólio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Este link importa uma folha de estilo CSS externa chamada "estilo.css" para a página. E abaixo a importação de uma fonte externa. -->
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+</head>
+
+<style>
+    /* Declaração das classes "pai e filho" para posterior alinhamento de div's */
+    .container {
+        margin: 1rem;
+        padding: 2rem 2rem;
+        text-align: center;
+    }
+
+    .child {
+        display: inline-block;
+        padding: 1rem 1rem;
+        vertical-align: middle;
+    }
+</style>
+
+<body>
+    <!-- criação do menu através da tag <ul> e definição de classes -->
+    <header class="menu">
+        <ul>
+            <a href="index.html"><button class="botaomenu">Sobre mim</button></a>
+            <a href="formacao.html"><button class="botaomenu">Formação</button></a>
+            <a href="portfolio.html"><button class="botaomenu">Portfólio</button></a>
+            <a href="contato.html"><button class="botaomenu">Contato</button></a>
+        </ul>
+    </header>
+
+    <!-- espaçamento -->
+    <br><br><br><br><br><br>
+
+    <!-- criação da seção "portfolio", onde conto um pouco sobre minha história acadêmica e profissional -->
+    <section id="portfolio">
+
+        <h2>Portfólio</h2>
+
+        <hr width="90%">
+
+        <br>
+
+        <!-- Uma introdução sobre minha atuação sobre produtor musical, em seguida uma inserção fornecida pelo youtube <iframe>, para implementar o player no site, dando acesso a todas as músicas que já participei -->
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Como produtor musical trabalhei na criação de mais de 300 instrumentais, captação de
+            vocais, mixagem e
+            masterização, efeitos especiais e trilhas sonoras para jogos, mais de 70 músicas lançadas. abaixo o player
+            do youtube com as músicas já lançadas:</p>
+
+
+        <h3 align="center">Músicas lançadas</h3>
+        <div align="center">
+
+            <iframe width="560" height="315" width="50%"
+                src="https://www.youtube.com/embed/videoseries?si=Kngq_d31eCehPAnQ&amp;list=PLn2lGh5-ndDpS54WoVXM69y_MRh7ND7hf"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+        </div>
+
+        <br><br>
+
+        <hr width="80%">
+
+        <!-- criação da hierarquia de divs para posicionar duas divs na mesma linha horizontal, sendo a primeira a trilha que fiz para um jogo e a segunda o catálogo de instrumentais que possuo a venda -->
+        <div class="container">
+
+            <div class="text">
+                <!-- Uma descrição sobre minha atuação como produtor musical em jogos -->
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;Em 2019 participei da 6ª Game Jam UNIVALI onde atuei como produtor das
+                    trilhas e efeitos sonoros do
+                    jogo Shadow Escape,
+                    <a href="https://germer.itch.io/shadow-escape">https://germer.itch.io/shadow-escape</a>
+                </p>
+            </div>
+
+            <div class="child">
+
+                <h3 ">Trilha Sonora Shadow Escape</h3>
+
+                    <!-- inserção fornecida pelo soundcloud <iframe>, para implementar o player no site, dando acesso a trilha do jogo que participei -->
+                    <iframe width=" 100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/767759241&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+                    </iframe>
+
+                    <div
+                        style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                        <a href="https://soundcloud.com/gustavo-turazzi-pereira" title="Gu$ta Beats" target="_blank"
+                            style="color: #cccccc; text-decoration: none;"></a> · <a
+                            href="https://soundcloud.com/gustavo-turazzi-pereira/sets/shadow-escape-soundtrack"
+                            title="Shadow Escape Soundtrack" target="_blank"
+                            style="color: #cccccc; text-decoration: none;"></a>
+                    </div>
+
+            </div>
+
+            <div class="child">
+
+                <h3 ">Catálogo completo de instrumentais</h3>
+
+                        <!-- inserção fornecida pelo soundcloud <iframe>, para implementar o player no site, dando acesso ao catálogo de instrumentais que tenho a venda -->
+                        <iframe width=" 100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1709016333&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+                    </iframe>
+                    <div
+                        style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                        <a href="https://soundcloud.com/gustavo-turazzi-571947995" title="Gu$ta Beats Catálogo 3"
+                            target="_blank" style="color: #cccccc; text-decoration: none;">Gu$ta Beats Catálogo
+                            3</a> ·
+                        <a href="https://soundcloud.com/gustavo-turazzi-571947995/sets/catalogo-completo-gu-ta-beats"
+                            title="Catálogo Completo Gu$ta Beats" target="_blank"
+                            style="color: #cccccc; text-decoration: none;">Catálogo Completo Gu$ta Beats</a>
+                    </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- footer com os links do Linkedin e Linktree(árvore de links) -->
+    <footer>
+        <p><a
+                href="https://br.linkedin.com/in/gustavo-turazzi-pereira-silva-873936238?trk=public_profile_samename-profile&original_referer=https%3A%2F%2Fbr.linkedin.com%2Fin%2Fgustavo-turazzi-1b9ab467">LinkedIn</a>
+            |
+            <a href="https://linktr.ee/prodgusta">Linktree</a>
+        </p>
+    </footer>
+</body>
+
+</html>

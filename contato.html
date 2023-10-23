@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- definição do título da página, UTF-8 define o conjunto de caracteres do documento, e define a largura da viewport como igual à largura do dispositivo -->
+    <title>Gustavo Turazzi - Contato</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Este link importa uma folha de estilo CSS externa chamada "estilo.css" para a página. E abaixo a importação de uma fonte externa. -->
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+</head>
+
+<body>
+    <!-- criação do menu através da tag <ul> e definição de classes -->
+    <header class="menu">
+        <ul>
+            <a href="index.html"><button class="botaomenu">Sobre mim</button></a>
+            <a href="formacao.html"><button class="botaomenu">Formação</button></a>
+            <a href="portfolio.html"><button class="botaomenu">Portfólio</button></a>
+            <a href="contato.html"><button class="botaomenu">Contato</button></a>
+        </ul>
+    </header>
+
+    <!-- espaçamento -->
+    <br><br><br><br><br><br>
+
+    <!-- criação da seção "contato", onde encontra-se o formulário de envio da mensagem -->
+    <section id="contato" align="center">
+
+        <h1>Entre em Contato</h1>
+        <h4>deixe uma mensagem :D</h4>
+
+        <!-- criação do formulário através das tags <form>, <label>, <input> e <textarea> -->
+        <section id="contato" align="center">
+
+            <br>
+
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
+                <input type="submit" value="Enviar">
+                <br><br>
+            </form>
+
+        </section>
+
+        <br><br>
+
+    </section>
+
+    <!-- footer com os links do Linkedin e Linktree(árvore de links) --> 
+    <footer>
+        <p><a
+                href="https://br.linkedin.com/in/gustavo-turazzi-pereira-silva-873936238?trk=public_profile_samename-profile&original_referer=https%3A%2F%2Fbr.linkedin.com%2Fin%2Fgustavo-turazzi-1b9ab467">LinkedIn</a>
+            |
+            <a href="https://linktr.ee/prodgusta">Linktree</a>
+        </p>
+    </footer>
+</body>
+
+</html>
